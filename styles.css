@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(54,50,50);
+	background-color: rgb(17,13,13);
 }
 
 *{
@@ -65,7 +65,7 @@ nav {
 		right: 0px;
 		height: 92vh;
 		top: 8vh;
-		background-color: maroon;
+		background-color: black;
 		display: flex;
 		flex-direction: column;
 		align-items: center;

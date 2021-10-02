@@ -13,6 +13,27 @@ section{
 	margin: 20px;
 }	
 
+.sub-section{
+	display: flex;
+	justify-content: space-around;
+	padding: 80px;
+}	
+
+.headshot-container{
+	display: flex;
+	align-items: center;
+}	
+
+.headshot {
+	width: 200px;
+	border-radius: 250px;
+}	
+
+h2 {
+	font-size: 20px;	
+}	
+
+
 .hero {
 	background-color: #1c1d25;
 	height: 100vh;
@@ -32,8 +53,9 @@ h1 {
 
 p {
 	margin: 0;
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: 300;
+	width: 60%
 }	
 
 .hero-area {

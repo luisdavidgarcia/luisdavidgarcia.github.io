@@ -1,23 +1,32 @@
 body {
-	background-color: rgb(32,55,82);
 	font-family: "Poppins", sans-serif;
 }
 
 section{
-	height: 500px;
 	background-color: white;
 	border: solid black 1px;
 }		
 
-.social {
-	margin: 20px;
+footer{
+	height:500px;
+	background-color: black;
 }	
+
+.socials {
+	padding-bottom: 200px;
+}	
+
+.social {
+	margin-right: 40px;
+}
+
 
 .sub-section{
 	display: flex;
 	justify-content: space-around;
-	padding: 80px;
-}	
+	padding: 40px;
+}
+
 
 .headshot-container{
 	display: flex;
@@ -25,8 +34,9 @@ section{
 }	
 
 .headshot {
-	width: 200px;
-	border-radius: 250px;
+	width: 150px;
+	border-radius: 30px;
+	align-items: center;
 }	
 
 h2 {
@@ -47,15 +57,13 @@ h2 {
 }	
 
 h1 {
-	font-size:40px;
-	margin: 0;
+	font-size:35px;
+	font-weight: 700;
 }	
 
 p {
-	margin: 0;
 	font-size: 14px;
-	font-weight: 300;
-	width: 60%
+	font-weight: 200;
 }	
 
 .hero-area {
@@ -66,20 +74,20 @@ p {
 }
 
 .hero-text{
-	margin-left: 80px;
-	margin-bottom: 100px;
+	margin-left: 20px;
+	padding-bottom: 200px;
 	color: rgb(226,226,226);
 	font-family: "Poppins", sans-serif;
 }	
 
 .button{
-	width: 150px;
-	height: 40px;
+	width: 90px;
+	height: 35px;
 	border-radius: 40px;
 	text-align: center;
 	background-color: coral;
-	font-size: 18px;
-	font-weight: 300;
+	font-size: 15px;
+	font-weight: 200;
 	padding-top: 5px;
 	margin-top: 15px;
 }
@@ -97,7 +105,7 @@ p {
 
 nav {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	min-height: 8vh;
 	background-color: rgb(25,25,27);
@@ -167,14 +175,16 @@ nav {
 
 	.burger {
 		display: block;
+		margin-right: 25px;
 	}	
 }	
 
 @media screen and (max-width: 1024px){
 	.nav-links{
-		width: 40%;
+		width: 100%;
 	}	
 }	
+
 
 .nav-active {
 	transform: translateX(0%);

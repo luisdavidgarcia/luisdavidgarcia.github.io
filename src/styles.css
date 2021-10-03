@@ -174,7 +174,6 @@ p {
 	color: #808080;
 }
 
-
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -226,7 +225,6 @@ nav {
 	.project-container{
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-between;
 		align-items: center;
 	}
 
@@ -234,7 +232,7 @@ nav {
 		position: relative;
 		width: 200px;
 		height: 300px;
-		margin-top: 2em
+		margin-top: 2em;
 	}	
 	
 	.headshot-container{
@@ -255,14 +253,13 @@ nav {
 		padding: 50px;
 	}	
 	h3{
-		text-align: left;
+		text-align: center;
 	}	
 
 	.headshot {
 		width: 90px;
 		border-radius: 30px;
 		align-items: center;
-		margin-right: 30px;
 		display: flex;
 		flex-wrap: wrap;
 	}
@@ -273,25 +270,26 @@ nav {
 
 	h2 {
 		font-size: 30px;		
-		text-align: left;
+		text-align: center;
 	}	
 	.socials {
 		padding-bottom: 200px;
 	}	
 
 	.social {
-		margin-right: 110px;
+		margin-right: 80px;
 	}
 
 	body {
 		overflow-x: hidden;
 	}	
 	
-	p{width: 150px;}
+	p{width: 200px;}
 		
 	.nav-links {
 		position: absolute;
 		right: 0px;
+		left: 0px;
 		height: 92vh;
 		top: 8vh;
 		background-color: rgb(25,25,27);
@@ -310,7 +308,7 @@ nav {
 
 	.burger {
 		display: block;
-		margin-right: 90px;
+		margin-right: 40px;
 	}	
 }	
 

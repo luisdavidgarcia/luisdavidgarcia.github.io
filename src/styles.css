@@ -13,6 +13,12 @@ footer{
 	padding: 40px;
 }
 
+img{
+	width: 50px;
+	margin-left: 20px;
+	margin-top: 0.4em;
+	border-radius: 100px;
+}
 
 .project-container{
 	display: flex;
@@ -134,7 +140,7 @@ h1 {
 }	
 
 p {
-	font-size: 14px;
+	font-size: 17px;
 	font-weight: 200;
 }	
 
@@ -157,7 +163,7 @@ p {
 	height: 35px;
 	border-radius: 40px;
 	text-align: center;
-	background-color: coral;
+	background-color: red;
 	font-size: 15px;
 	font-weight: 200;
 	padding-top: 5px;

@@ -26,7 +26,7 @@ h3{font-size: 25px;}
 }
 
 textarea{
-	width: 290px;
+	width: 230px;
 	height: 180px;
 }	
 
@@ -366,7 +366,7 @@ nav {
 		right: 0px;
 		left: 0px;
 		height: 92vh;
-		top: 8vh;
+		top: 10vh;
 		background-color: rgb(25,25,27);
 		display: flex;
 		flex-direction: column;

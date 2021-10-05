@@ -69,9 +69,9 @@ const addMessage = (ev) =>{
 	}
 
 	//validate its working
-	console.warn('added',{Messages});
-	let pre = document.querySelector('#msg pre');
-	pre.textContent = '\n' + JSON.stringify(Messages, '\t',2);
+	//	console.warn('added',{Messages});
+	//let pre = document.querySelector('#msg pre');
+	//pre.textContent = '\n' + JSON.stringify(Messages, '\t',2);
 
 	localStorage.setItem('MyMessages',JSON.stringify(Messages));
 }	

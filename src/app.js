@@ -1,26 +1,24 @@
-const navSlide = () => {
+//const navSlide = () => {
 	const burger = document.querySelector('.burger');
 	const nav = document.querySelector('.nav-links');
 	const navLinks = document.querySelectorAll('.nav-links li');
 	
-	let menuOpen = false;
-
 	//Toggle Nav
 	burger.addEventListener('click',() => {
-		if(!menuOpen){
 			nav.classList.toggle('nav-active');
 			//Burger Animation
 			burger.classList.toggle('toggle');
-			menuOpen = true;
-		}else{
-			nav.classList.toggle('nav-active');
-			//Burger Animation
-			burger.classList.toggle('toggle');
-			menuOpen = false;
-		}		
 	});
-}
-navSlide();
+
+	//Untoggle nav after clikcing a link
+	navLinks.forEach(link => link.addEventListener("click",() =>{
+			nav.classList.remove('nav-active');
+			//Burger Animation
+			burger.classList.remove('toggle');
+
+		}));
+//}
+//navSlide();
 
 			/*
 			//Animate Links

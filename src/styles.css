@@ -463,9 +463,6 @@ nav {
 	transform: translateX(0%);
 }
 
-.nav-passive{
-	transform: translateX(100%);
-}	
 
 @keyframes navLinkFade{
 	from{

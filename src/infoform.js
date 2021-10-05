@@ -52,14 +52,44 @@ const validateInputs = () => {
 	}	
 };	
 
-form.addEventListener('submit',(e) => {
-	e.preventDefault();
-	isValidationOn = true;
-	validateInputs();
-	if (isFormValid){
-		form.remove();
-		thankYou.classList.remove("hidden");
-	}	
+let Messages = [];
+// example: {id: 848948594, name: "John Doe", email: "johndoe@emailsite.com", message: "Hi there, . . . "}
+const addMessage = (ev) =>{
+	let messageDetails = {
+		id: Date.now(),
+		name: nameInput.value,	
+		email: emailInput.value,	
+		Message:messageInput.value	
+	}
+	
+	//Only Accept Inputs in array that are not null, so that they don't take up extra space
+	if (nameInput != null && messageInput != null && emailInput != null) {
+		Messages.push(messageDetails);
+		document.forms[0].reset();
+	}
+
+	//validate its working
+	console.warn('added',{Messages});
+	let pre = document.querySelector('#msg pre');
+	pre.textContent = '\n' + JSON.stringify(Messages, '\t',2);
+
+	localStorage.setItem('MyMessages',JSON.stringify(Messages));
+}	
+
+//Checks for Submit Button and then Initaties Response
+document.addEventListener('DOMContentLoaded',()=>{
+	form.addEventListener('submit',(e) => {
+		e.preventDefault();
+		isValidationOn = true;
+		validateInputs();
+
+		if (isFormValid){
+			addMessage();
+			//form.remove();  //remove form if desired, but if someone wants to resubmit might as well let them
+			thankYou.classList.remove("hidden");
+			isValidationOn = false;
+		}	
+	});
 });
 
 inputs.forEach(input => {
@@ -67,4 +97,6 @@ inputs.forEach(input => {
 		validateInputs();
 	});
 });	
+
+
 

@@ -62,7 +62,7 @@ form {
 	padding: 50px;
 }	
 
-h3{font-size: 25px;}
+h3{text-align: center; font-size: 25px;}
 
 .form-group label{
 	display: block;
@@ -202,6 +202,7 @@ img{
 
 .project-description{
 	font-size: 1em;
+	width: 150px;
 	margin-top: 0.25em;
 }	
 
@@ -367,6 +368,7 @@ nav {
 	}
 
 	.project-area-button{
+		margin-right: 35px;
 		position: relative;
 		width: 200px;
 		height: 300px;
@@ -418,19 +420,13 @@ nav {
 	html, body {
 		overflow-x:hidden
 	}
-
-	body {
-		overflow-x: hidden;
-	}	
 	
-	p{width: 190px;}
-		
 	.nav-links {
 		position: absolute;
 		right: 0px;
 		left: 0px;
-		height: 92vh;
-		top: 10vh;
+		height: 100vh;
+		top: 0vh;
 		background-color: rgb(25,25,27);
 		display: flex;
 		flex-direction: column;
@@ -449,7 +445,7 @@ nav {
 	.burger {
 		display: block;
 		margin-right: 40px;
-	}	
+	}
 }	
 
 @media screen and (max-width: 1024px){

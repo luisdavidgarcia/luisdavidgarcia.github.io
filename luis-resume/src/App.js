@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './assets/styles/App.css';
 import myHeadShot from './assets/images/HeadShot.png';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -22,7 +22,10 @@ function App() {
                     <Route path="/ai" component={AI} />
                 </Switch>
                 <header className="App-header">
-                    <img src={myHeadShot} alt="Head shot of Luis David Garcia." />
+                    <img
+                        src={myHeadShot}
+                        alt="Head shot of Luis David Garcia."
+                    />
                     <p>Luis David Garcia's Resume.</p>
                     <a
                         className="App-link"

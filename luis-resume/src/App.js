@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import myHeadShot from './assets/HeadShot.png';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={"../Images"} className="App-logo" alt="logo" />
+        <img src={myHeadShot} alt="Head shot of Luis David Garcia."/>
         <p>
           Luis David Garcia's Resume.
         </p>

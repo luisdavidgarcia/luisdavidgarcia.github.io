@@ -5,3 +5,5 @@ function Embedded() {
         </div>
     );
 }
+
+export default Embedded;

@@ -5,3 +5,5 @@ function AI() {
         </div>
     );
 }
+
+export default AI;

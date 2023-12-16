@@ -5,16 +5,12 @@ import linkedInLogo from '../assets/images/linkedin.png';
 import gitHubLogo from '../assets/images/github.png';
 import emailLogo from '../assets/images/email.png';
 import kaggleLogo from '../assets/images/kaggle.png';
+import softwareImage from '../assets/images/software.avif';
+import embeddedImage from '../assets/images/embedded.jpg';
+import aiImage from '../assets/images/ai.jpg';
 import '../assets/styles/Home.css';
 
 function Home() {
-    const softwareImage =
-        'https://bairesdev.mo.cloudinary.net/blog/2023/08/Fastest-Programming-Languages.jpg';
-    const embeddedImage =
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ89MvCnZxR_max4EIAyM6qfuxlk5ZYnEnQig&usqp=CAU';
-    const aiImage =
-        'https://incubator.ucf.edu/wp-content/uploads/2023/07/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1.jpg';
-
     return (
         <div>
             <section className="about-section">

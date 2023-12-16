@@ -2,33 +2,82 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px; /* Adds space between cards */
+    gap: 20px;
 }
 
-.mission-statement {
-    font-size: 1.2em; /* Adjust the font size */
-    line-height: 1.6; /* Good for readability */
-    text-align: justify; /* Justify or center align based on preference */
-    margin: 20px 0; /* Add some space above and below */
-    color: #333; /* Set a suitable text color */
-    max-width: 800px; /* Set a max-width for better readability on larger screens */
-    margin-left: auto; /* These two lines center the paragraph */
-    margin-right: auto;
+.about-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Align items to the start of the flex container */
+    gap: 30px; /* Adjust gap for better spacing */
+    padding: 20px; /* Add some padding around the section */
+    margin: 0 auto; /* Center the section horizontally */
+    max-width: 1000px; /* Set a maximum width for the section */
+}
+
+.about-short, .about-long {
+    flex: 1; /* Both sections take equal width */
+}
+
+.about-short {
+    max-width: 400px; /* Adjust max-width for short section */
+}
+
+.about-long {
+    max-width: 60%; /* Set a percentage max-width for better responsiveness */
+}
+
+/* Responsive Design: Stacking for smaller screens */
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px; /* Smaller gap for mobile view */
+    }
+
+    .about-short, .about-long {
+        max-width: 100%; /* Full width on smaller screens */
+    }
+}
+
+.mission-statement, .strength-statement {
+    font-size: 1em; /* Adjust font size */
+    line-height: 1.6;
+    text-align: justify;
+    margin: 10px 0;
+    color: #333;
+}
+
+.strength-statement {
+    font-weight: bold;
+    color: darkblack;
+    text-align: center;
 }
 
 .headshot {
-    width: 100%; /* Full width on smaller screens */
-    max-width: 300px; /* Limit the size on larger screens */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Optional: if you want a circular image */
-    display: block; /* To center the image if needed */
-    margin-left: auto;
-    margin-right: auto;
+    width: 50%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto; /* Center the image with top and bottom margin */
 }
 
-/* Example Media Query for smaller screens */
+/* Adjust headshot size for smaller screens */
 @media (max-width: 600px) {
     .headshot {
-        max-width: 200px; /* Smaller size on mobile devices */
+        max-width: 200px;
     }
+}
+
+.profile-links {
+    display: flex;
+    justify-content: center; /* Center the logos */
+    gap: 10px; /* Space between logos */
+    margin-top: 20px; /* Space above the logo row */
+}
+
+.profile-logo {
+    height: 40px; /* Example size, adjust as needed */
+    width: auto; /* Maintain aspect ratio */
 }

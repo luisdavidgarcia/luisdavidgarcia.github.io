@@ -7,6 +7,7 @@ import Software from './pages/Software';
 import Embedded from './pages/Embedded';
 import AI from './pages/AI';
 import Navbar from './components/common/Navbar';
+import Footer from './components/Footer';
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                     <Route path="/embedded" element={<Embedded />} />
                     <Route path="/ai" element={<AI />} />
                 </Routes>
+                <Footer />
             </div>
         </Router>
     );

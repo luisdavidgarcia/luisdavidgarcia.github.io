@@ -1,0 +1,34 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Adds space between cards */
+}
+
+.mission-statement {
+    font-size: 1.2em; /* Adjust the font size */
+    line-height: 1.6; /* Good for readability */
+    text-align: justify; /* Justify or center align based on preference */
+    margin: 20px 0; /* Add some space above and below */
+    color: #333; /* Set a suitable text color */
+    max-width: 800px; /* Set a max-width for better readability on larger screens */
+    margin-left: auto; /* These two lines center the paragraph */
+    margin-right: auto;
+}
+
+.headshot {
+    width: 100%; /* Full width on smaller screens */
+    max-width: 300px; /* Limit the size on larger screens */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: if you want a circular image */
+    display: block; /* To center the image if needed */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Example Media Query for smaller screens */
+@media (max-width: 600px) {
+    .headshot {
+        max-width: 200px; /* Smaller size on mobile devices */
+    }
+}

@@ -10,6 +10,9 @@ import embeddedImage from '../assets/images/embedded.jpg';
 import aiImage from '../assets/images/ai.jpg';
 import '../assets/styles/Home.css';
 import RecentWorks from '../components/common/RecentWorks';
+import CaptionThis from '../assets/images/CaptionThis.png';
+import CookMyFridge from '../assets/images/CookMyFridge.png';
+import Kinect from '../assets/images/Kinect.png';
 
 function Home() {
     return (
@@ -126,17 +129,18 @@ function Home() {
                     project1Title="Cook My Fridge"
                     project1Description="A brief description of the Cook My Fridge project."
                     project1URL="https://github.com/aahmadyar123/CookMyFridge"
-                    project1Image="path_to_project1_image"
+                    project1Image={CookMyFridge}
                     project2Title="Kinect Security Flask Server"
                     project2Description="A brief description of the Kinect Security Flask Server project."
                     project2URL="https://github.com/luisdavidgarcia/Kinect_Security_Flask_Server"
-                    project2Image="path_to_project2_image"
+                    project2Image={Kinect}
                     project3Title="Caption This"
                     project3Description="A brief description of the Caption This project."
                     project3URL="https://github.com/luisdavidgarcia/CaptionThis"
-                    project3Image="path_to_project3_image"
+                    project3Image={CaptionThis}
                 />
             </section>
+            <br />
             <section className="skills-section">
                 <h2>Skills</h2>
                 {/* List or showcase of skills */}

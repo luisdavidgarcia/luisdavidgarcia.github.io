@@ -9,6 +9,7 @@ import softwareImage from '../assets/images/software.avif';
 import embeddedImage from '../assets/images/embedded.jpg';
 import aiImage from '../assets/images/ai.jpg';
 import '../assets/styles/Home.css';
+import RecentWorks from '../components/common/RecentWorks';
 
 function Home() {
     return (
@@ -16,7 +17,11 @@ function Home() {
             <section className="about-section">
                 <div className="about-short">
                     <h1>Luis David Garcia</h1>
-                    <img src={myHeadShot} alt="Luis David Garcia" className='headshot'/>
+                    <img
+                        src={myHeadShot}
+                        alt="Luis David Garcia"
+                        className="headshot"
+                    />
                     <p className="strength-statement">
                         My defining strength is my resilience, enabling me to
                         thrive in the rapidly evolving landscape of software
@@ -117,7 +122,20 @@ function Home() {
             </section>
             <section className="recent-works-section">
                 <h2>Recent Works</h2>
-                {/* Content showcasing recent projects or contributions */}
+                <RecentWorks
+                    project1Title="Cook My Fridge"
+                    project1Description="A brief description of the Cook My Fridge project."
+                    project1URL="https://github.com/aahmadyar123/CookMyFridge"
+                    project1Image="path_to_project1_image"
+                    project2Title="Kinect Security Flask Server"
+                    project2Description="A brief description of the Kinect Security Flask Server project."
+                    project2URL="https://github.com/luisdavidgarcia/Kinect_Security_Flask_Server"
+                    project2Image="path_to_project2_image"
+                    project3Title="Caption This"
+                    project3Description="A brief description of the Caption This project."
+                    project3URL="https://github.com/luisdavidgarcia/CaptionThis"
+                    project3Image="path_to_project3_image"
+                />
             </section>
             <section className="skills-section">
                 <h2>Skills</h2>

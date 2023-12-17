@@ -1,13 +1,15 @@
 import React from 'react';
 import './assets/styles/App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 import Home from './pages/Home';
 import Software from './pages/Software';
 import Embedded from './pages/Embedded';
 import AI from './pages/AI';
 import Navbar from './components/common/Navbar';
-import Footer from './components/Footer';
+import Footer from './components/common/Footer';
 
 function App() {
     return (

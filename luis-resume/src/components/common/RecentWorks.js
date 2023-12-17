@@ -31,6 +31,7 @@ function RecentWorks({
 
     return (
         <div className="recent-works-section">
+            <h2>Recent Works</h2>
             <Slider {...settings}>
                 {/* Slide for Project 1 */}
                 <div>

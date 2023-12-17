@@ -13,6 +13,7 @@ import RecentWorks from '../components/common/RecentWorks';
 import CaptionThis from '../assets/images/CaptionThis.png';
 import CookMyFridge from '../assets/images/CookMyFridge.png';
 import Kinect from '../assets/images/Kinect.png';
+import Skills from '../components/common/Skills';
 
 function Home() {
     return (
@@ -124,7 +125,6 @@ function Home() {
                 </div>
             </section>
             <section className="recent-works-section">
-                <h2>Recent Works</h2>
                 <RecentWorks
                     project1Title="Cook My Fridge"
                     project1Description="A brief description of the Cook My Fridge project."
@@ -142,8 +142,7 @@ function Home() {
             </section>
             <br />
             <section className="skills-section">
-                <h2>Skills</h2>
-                {/* List or showcase of skills */}
+                <Skills />
             </section>
             <section className="projects-section">
                 <h2>My Projects</h2>

@@ -168,6 +168,7 @@ function Home() {
                     />
                 </div>
             </section>
+            <br />
         </div>
     );
 }

@@ -1,7 +1,7 @@
 /* RecentWorksCard.css */
 .recent-works-card {
     margin: 0 auto; /* Center the card */
-    width: 50%; /* Take up 70% of the container's width */
+    width: 70%; /* Take up 70% of the container's width */
     display: flex; /* Use flex layout */
     flex-direction: column; /* Stack children vertically */
     align-items: center; /* Center children horizontally */
@@ -25,35 +25,45 @@
 
 /* Styles for custom arrows */
 .slick-next, .slick-prev {
-    background: rgba(50, 50, 50, 0.8); /* Darker background for better visibility */
-    color: #fff; /* White arrow for contrast */
-    font-size: 24px;
-    line-height: 0.5;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: #fff; /* White arrow color for contrast */
+    font-size: 24px; /* Size of the arrow */
     opacity: 1; /* Fully opaque */
-    transition: background 0.3s, opacity 0.3s;
-    z-index: 25;
-    border-radius: 50%; /* Circular background */
-    padding: 8px; /* Clickable area */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
-}
-
-.slick-next:hover, .slick-prev:hover {
-    background: rgba(255, 255, 255, 0.8); /* Lighten on hover */
-    color: #333; /* Darker color for arrow icon on hover */
+    position: absolute; /* Absolute positioning */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust vertical position */
+    z-index: 25; /* Ensure they are above other elements */
+    border-radius: 50%; /* Optional: if you want round arrows */
+    width: 30px; /* Width of the arrow container */
+    height: 30px; /* Height of the arrow container */
+    justify-content: center; /* Center the arrow horizontally */
+    align-items: center; /* Center the arrow vertically */
+    display: flex; /* Use flexbox for centering */
+    cursor: pointer; /* Change cursor to pointer */
 }
 
 .slick-prev {
-    left: 100px; /* Adjust this value to position the left arrow */
+    left: calc(5% + 20px); /* Position from the left */
+    /* Use :before to add the arrow icon */
+    &:before {
+        content: '<'; /* Replace with your preferred icon */
+        /* Adjust size and font as needed */
+    }
 }
 
 .slick-next {
-    right: 100px; /* Adjust this value to position the right arrow */
-}
-
-@media (max-width: 768px) {
-    .slick-next, .slick-prev {
-        font-size: 20px; /* Smaller arrows on smaller screens */
-        left: 10px; /* Adjust left arrow position */
-        right: 10px; /* Adjust right arrow position */
+    right: calc(5% + 20px); /* Position from the right */
+    /* Use :before to add the arrow icon */
+    &:before {
+        content: '>'; /* Replace with your preferred icon */
+        /* Adjust size and font as needed */
     }
 }
+
+/* Remove arrow visibility on smaller screens if not needed */
+@media (max-width: 768px) {
+    .slick-prev, .slick-next {
+        display: none; /* Hide arrows on mobile */
+    }
+}
+

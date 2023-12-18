@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.03e7159a.css",
+    "main.js": "/static/js/main.22501de0.js",
+    "static/media/CaptionThis.png": "/static/media/CaptionThis.17dc88fede8ce9c31a6c.png",
+    "static/media/Linux-Logo.png": "/static/media/Linux-Logo.473b5b1180d740ee9dbd.png",
+    "static/media/myLG.png": "/static/media/myLG.c74802c8b1b9d1dc90a7.png",
+    "static/media/Kinect.png": "/static/media/Kinect.2e1d2e431afaa5b0b5e9.png",
+    "static/media/ai.jpg": "/static/media/ai.9fd1d02550aa16dd9430.jpg",
+    "static/media/Headshot.png": "/static/media/Headshot.b572065ac3fde3741eb0.png",
+    "static/media/Vim-Logo.png": "/static/media/Vim-Logo.6c31f5008fbbc403e902.png",
+    "static/media/embedded.jpg": "/static/media/embedded.61d0135944e61267a296.jpg",
+    "static/media/CookMyFridge.png": "/static/media/CookMyFridge.84096b386171bb741be1.png",
+    "static/media/python-logo.png": "/static/media/python-logo.ecfb4e6faf26def45e95.png",
+    "static/media/stm32-logo.jpg": "/static/media/stm32-logo.e7bfbf28af3dcb66fd08.jpg",
+    "static/media/C-Sharp_Logo.png": "/static/media/C-Sharp_Logo.7f7159aad7bc573d9ddf.png",
+    "static/media/Rust-Logo.png": "/static/media/Rust-Logo.173ee439a9e1a8bb9aa1.png",
+    "static/media/csslogo.png": "/static/media/csslogo.7d039f840c0c251dd48a.png",
+    "static/media/raspberrypilogo.png": "/static/media/raspberrypilogo.bd332561b83bcd50a0f7.png",
+    "static/media/C++_Logo.png": "/static/media/C++_Logo.3f8430b31b0960aae7e0.png",
+    "static/media/software.avif": "/static/media/software.68142692fd761987f309.avif",
+    "static/media/html5logo.jpg": "/static/media/html5logo.0d7034b0984ed2d7ca50.jpg",
+    "static/media/C_Logo.png": "/static/media/C_Logo.bbbbbabc8c191bfb99bf.png",
+    "static/media/Java-Logo.png": "/static/media/Java-Logo.00142ac3730c6fdde56b.png",
+    "static/media/github.png": "/static/media/github.05f6c17b8cd04c28456f.png",
+    "static/media/kaggle.png": "/static/media/kaggle.c4cd9d8b05bbdf52d6d6.png",
+    "static/media/linkedin.png": "/static/media/linkedin.f249b38224ca41a0b909.png",
+    "static/media/reactlogo.svg": "/static/media/reactlogo.add74742e9e8f8827f7fa666dca760db.svg",
+    "static/media/nodelogo.svg": "/static/media/nodelogo.829c557e87571a03ac6b4713a42d6013.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.03e7159a.css.map": "/static/css/main.03e7159a.css.map",
+    "main.22501de0.js.map": "/static/js/main.22501de0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03e7159a.css",
+    "static/js/main.22501de0.js"
+  ]
+}

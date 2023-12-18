@@ -69,7 +69,7 @@
 /* Remove arrow visibility on smaller screens if not needed */
 @media (max-width: 768px) {
     .slick-prev, .slick-next {
-        display: none; /* Hide arrows on mobile */
+        display: none !important; /* Hide arrows on mobile */
     }
 
     .recent-works-card {

@@ -1,6 +1,5 @@
 .card {
     border: 1px solid #ddd;
-    border-radius: 4px;
     overflow: hidden;
     margin: 10px;
     text-align: center;
@@ -8,6 +7,11 @@
     height: 400px; /* Fixed height */
     display: flex;
     flex-direction: column;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
 }
 
 .card img {
@@ -39,4 +43,8 @@
     display: -webkit-box;
     -webkit-line-clamp: 3; /* Limits to 3 lines */
     -webkit-box-orient: vertical;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }

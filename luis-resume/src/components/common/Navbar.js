@@ -1,13 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import myLG from '../../assets/images/myLG.png';
 import '../../assets/styles/Navbar.css';
 
 const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
     return (
         <nav className="navbar">
             <img src={myLG} alt="My Logo" className="navbar-logo" />
-            <ul className="nav-links">
+            <button className="hamburger" onClick={toggleMenu}>          
+                <span className="hamburger-line"></span>
+                <span className="hamburger-line"></span>
+                <span className="hamburger-line"></span>
+            </button>
+            <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
                 <li>
                     <NavLink to="/" exact activeClassName="active">
                         Home

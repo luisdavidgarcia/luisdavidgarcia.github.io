@@ -16,12 +16,14 @@ function App() {
         <Router>
             <div className="App">
                 <Navbar />
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/software" element={<Software />} />
-                    <Route path="/embedded" element={<Embedded />} />
-                    <Route path="/ai" element={<AI />} />
-                </Routes>
+                <div className="content">
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/software" element={<Software />} />
+                        <Route path="/embedded" element={<Embedded />} />
+                        <Route path="/ai" element={<AI />} />
+                    </Routes>
+                </div>
                 <Footer />
             </div>
         </Router>

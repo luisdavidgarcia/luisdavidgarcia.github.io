@@ -1,9 +1,9 @@
 import React from 'react';
 import Slider from 'react-slick';
-import Card from '../../components/common/Card';
-import NextArrow from './NextSliderArrow';
-import PrevArrow from './PrevSliderArrow';
-import '../../assets/styles/RecentWorks.css';
+import Card from './common/Card';
+import NextArrow from './common/NextSliderArrow';
+import PrevArrow from './common/PrevSliderArrow';
+import '../assets/styles/RecentWorks.css';
 
 function RecentWorks({
     project1Title,

@@ -9,11 +9,11 @@ import softwareImage from '../assets/images/software.avif';
 import embeddedImage from '../assets/images/embedded.jpg';
 import aiImage from '../assets/images/ai.jpg';
 import '../assets/styles/Home.css';
-import RecentWorks from '../components/common/RecentWorks';
+import RecentWorks from '../components/RecentWorks';
 import CaptionThis from '../assets/images/CaptionThis.png';
 import CookMyFridge from '../assets/images/CookMyFridge.png';
 import Kinect from '../assets/images/Kinect.png';
-import Skills from '../components/common/Skills';
+import Skills from '../components/Skills';
 
 function Home() {
     return (

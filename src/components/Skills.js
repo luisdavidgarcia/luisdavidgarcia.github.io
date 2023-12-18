@@ -1,21 +1,21 @@
 import React from 'react';
-import '../../assets/styles/Skills.css';
-import pythonLogo from '../../assets/images/python-logo.png';
-import cppLogo from '../../assets/images/C++_Logo.png';
-import cLogo from '../../assets/images/C_Logo.png';
-import rustLogo from '../../assets/images/Rust-Logo.png';
-import cSharpLogo from '../../assets/images/C-Sharp_Logo.png';
-import javaLogo from '../../assets/images/Java-Logo.png';
-import bashLogo from '../../assets/images/bashlogo.png';
-import reactLogo from '../../assets/images/reactlogo.svg';
-import htmlLogo from '../../assets/images/html5logo.jpg';
-import cssLogo from '../../assets/images/csslogo.png';
-import nodeJSLogo from '../../assets/images/nodelogo.svg';
-import linuxLogo from '../../assets/images/Linux-Logo.png';
-import gitLogo from '../../assets/images/gitlogo.png';
-import vimLogo from '../../assets/images/Vim-Logo.png';
-import stm32Logo from '../../assets/images/stm32-logo.jpg';
-import raspberryPiLogo from '../../assets/images/raspberrypilogo.png';
+import '../assets/styles/Skills.css';
+import pythonLogo from '../assets/images/python-logo.png';
+import cppLogo from '../assets/images/C++_Logo.png';
+import cLogo from '../assets/images/C_Logo.png';
+import rustLogo from '../assets/images/Rust-Logo.png';
+import cSharpLogo from '../assets/images/C-Sharp_Logo.png';
+import javaLogo from '../assets/images/Java-Logo.png';
+import bashLogo from '../assets/images/bashlogo.png';
+import reactLogo from '../assets/images/reactlogo.svg';
+import htmlLogo from '../assets/images/html5logo.jpg';
+import cssLogo from '../assets/images/csslogo.png';
+import nodeJSLogo from '../assets/images/nodelogo.svg';
+import linuxLogo from '../assets/images/Linux-Logo.png';
+import gitLogo from '../assets/images/gitlogo.png';
+import vimLogo from '../assets/images/Vim-Logo.png';
+import stm32Logo from '../assets/images/stm32-logo.jpg';
+import raspberryPiLogo from '../assets/images/raspberrypilogo.png';
 
 function Skills() {
     const skills = [

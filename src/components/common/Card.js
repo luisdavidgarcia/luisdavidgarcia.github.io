@@ -1,19 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link component
 import '../../assets/styles/Card.css';
 
 function Card({ title, description, imageUrl, link, className = '' }) {
     return (
         <div className={`card ${className}`}>
-            <a href={link} target="_blank" rel="noopener noreferrer">
-                {' '}
+            <Link to={link}>
                 <img src={imageUrl} alt={title} />
-            </a>
+            </Link>
             <div className="card-body">
                 <h3 className="card-title">{title}</h3>
                 <p className="card-text">{description}</p>
-                <a href={link} className="btn">
+                <Link to={link} className="btn">
                     Learn More
-                </a>
+                </Link>
             </div>
         </div>
     );

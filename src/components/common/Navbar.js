@@ -7,9 +7,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     useEffect(() => {
-        // When the component unmounts
         return () => {
-            // Clean up the class
             document.body.classList.remove('no-scroll');
         };
     }, []);
@@ -17,17 +15,22 @@ const Navbar = () => {
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
-        document.body.classList.toggle('no-scroll');
+        if (!isOpen) {
+            document.body.classList.add('no-scroll');
+        } else {
+            document.body.classList.remove('no-scroll');
+        }
     };
 
     const closeMenu = () => {
         setIsOpen(false);
+        document.body.classList.remove('no-scroll');
     };
 
     return (
         <nav className="navbar">
             <img src={myLG} alt="My Logo" className="navbar-logo" />
-            <button className="hamburger" onClick={toggleMenu}>
+            <button className={`hamburger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
                 <span className="hamburger-line"></span>
                 <span className="hamburger-line"></span>
                 <span className="hamburger-line"></span>

@@ -74,7 +74,7 @@
     }
 
     .hamburger.open .hamburger-line:nth-child(3) {
-        transform: translateY(-10px) rotate(-45deg); /* Bottom line rotates to form cross */
+        transform: translateY(-5px) rotate(-45deg); /* Bottom line rotates to form cross */
     }
 
     .nav-links {

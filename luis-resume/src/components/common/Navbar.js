@@ -13,11 +13,11 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <img src={myLG} alt="My Logo" className="navbar-logo" />
-            <button className="hamburger" onClick={toggleMenu}>          
+            <button className="hamburger" onClick={toggleMenu}>
                 <span className="hamburger-line"></span>
                 <span className="hamburger-line"></span>
                 <span className="hamburger-line"></span>
-            </button>
+             </button>
             <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
                 <li>
                     <NavLink to="/" exact activeClassName="active">

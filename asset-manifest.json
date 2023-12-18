@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.03e7159a.css",
-    "main.js": "/static/js/main.22501de0.js",
+    "main.css": "/static/css/main.429a950b.css",
+    "main.js": "/static/js/main.21af19b3.js",
     "static/media/CaptionThis.png": "/static/media/CaptionThis.17dc88fede8ce9c31a6c.png",
     "static/media/Linux-Logo.png": "/static/media/Linux-Logo.473b5b1180d740ee9dbd.png",
     "static/media/myLG.png": "/static/media/myLG.c74802c8b1b9d1dc90a7.png",
@@ -32,11 +32,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.03e7159a.css.map": "/static/css/main.03e7159a.css.map",
-    "main.22501de0.js.map": "/static/js/main.22501de0.js.map"
+    "main.429a950b.css.map": "/static/css/main.429a950b.css.map",
+    "main.21af19b3.js.map": "/static/js/main.21af19b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.03e7159a.css",
-    "static/js/main.22501de0.js"
+    "static/css/main.429a950b.css",
+    "static/js/main.21af19b3.js"
   ]
 }

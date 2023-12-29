@@ -3,12 +3,11 @@ import Card from '../components/common/Card';
 
 const aiProjects = [
     {
-        title: 'AI Project 1',
-        description: 'A brief overview of AI Project 1.',
-        imageUrl: '../assets/images/ai_project1.jpg',
-        link: 'https://github.com/yourusername/ai_project1',
+        title: 'CaptionThis',
+        description: 'A Python-based deep learning tool for generating insightful captions for images. Utilizing the BLIP model and trained using Google\'s Conceptual Captions dataset.',
+        imageUrl: 'https://drive.google.com/uc?id=1l40u9ihqn7qqN0xVnurPe0NWXkrSg1B3',
+        link: 'https://github.com/luisdavidgarcia/CaptionThis',
     },
-    // Add more AI projects as needed
 ];
 
 function AI() {

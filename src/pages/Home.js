@@ -10,10 +10,11 @@ import embeddedImage from '../assets/images/embedded.jpg';
 import aiImage from '../assets/images/ai.jpg';
 import '../assets/styles/Home.css';
 import RecentWorks from '../components/RecentWorks';
-import CaptionThis from '../assets/images/CaptionThis.png';
-import CookMyFridge from '../assets/images/CookMyFridge.png';
-import Kinect from '../assets/images/Kinect.png';
 import Skills from '../components/Skills';
+
+const CaptionThis = 'https://drive.google.com/uc?id=1l40u9ihqn7qqN0xVnurPe0NWXkrSg1B3';
+const CookMyFridge = 'https://drive.google.com/uc?id=1BjlAUKaKBo19KdwxshJ7CqEctpjL1eoD';
+const Kinect = 'https://drive.google.com/uc?id=1LHEa1Iy886dhJ7Urnuqdsfm9EGUuWkx0';
 
 function Home() {
     return (

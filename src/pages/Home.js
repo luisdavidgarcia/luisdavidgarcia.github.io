@@ -12,9 +12,9 @@ import '../assets/styles/Home.css';
 import RecentWorks from '../components/RecentWorks';
 import Skills from '../components/Skills';
 
-const CaptionThis = 'https://drive.google.com/uc?id=1l40u9ihqn7qqN0xVnurPe0NWXkrSg1B3';
-const CookMyFridge = 'https://drive.google.com/uc?id=1BjlAUKaKBo19KdwxshJ7CqEctpjL1eoD';
-const Kinect = 'https://drive.google.com/uc?id=1LHEa1Iy886dhJ7Urnuqdsfm9EGUuWkx0';
+const CaptionThis = 'https://lh3.googleusercontent.com/drive-viewer/AEYmBYTiPm75wR9vREFqWv4z5ZtxNMosivTo3Zn3bTE4Tb24Mn14gtdb6iF9I0tgulMbDWZIb9bkfIuflpa7IYk_oJGSuTqfsw=s1600';
+const CookMyFridge = 'https://lh3.googleusercontent.com/drive-viewer/AEYmBYQ07GZIfNC7LtbpD7p0OsX7VRVnvIqS09sUXs4lZGwVRXiuT6iD2A26pJRBzxPgf0zZTW6Jj6Okm1w3P7ozBWpSI3_Xlg=s1600';
+const Kinect = 'https://lh3.googleusercontent.com/drive-viewer/AEYmBYRZycY9Tsy_d1Jy1tZ8QhMfUYAGbwJTB39t94BMZr-zTy3SdqFwhHzj4IUuUZBwXuIqn-4d5t759fAEF8HkiEkucXYrkw=s1600';
 
 function Home() {
     return (
@@ -128,15 +128,15 @@ function Home() {
             <section className="recent-works-section">
                 <RecentWorks
                     project1Title="Cook My Fridge"
-                    project1Description="A brief description of the Cook My Fridge project."
+                    project1Description="An automated recipe generator that suggests recipes based on the ingredients you have in your fridge. Built with React, Node.js, and MongoDB."
                     project1URL="https://github.com/aahmadyar123/CookMyFridge"
                     project1Image={CookMyFridge}
                     project2Title="Kinect Security Flask Server"
-                    project2Description="A brief description of the Kinect Security Flask Server project."
+                    project2Description="Xbox 360 Kinect into a real-time webcam with this innovative project. Leveraging Flask, OpenCV2, and Kinect USB Adapter, it streams Kinect footage through a web app."
                     project2URL="https://github.com/luisdavidgarcia/Kinect_Security_Flask_Server"
                     project2Image={Kinect}
                     project3Title="Caption This"
-                    project3Description="A brief description of the Caption This project."
+                    project3Description="A Python-based deep learning tool for generating insightful captions for images. Utilizing the BLIP model and trained using Google's Conceptual Captions dataset."
                     project3URL="https://github.com/luisdavidgarcia/CaptionThis"
                     project3Image={CaptionThis}
                 />

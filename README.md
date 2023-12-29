@@ -23,3 +23,6 @@ Welcome to my professional portfolio, showcasing my skills and projects in softw
 - **LinkedIn**: [Visit my LinkedIn](https://www.linkedin.com/in/luisgd/)
 - **GitHub**: [Explore my repositories](https://github.com/luisdavidgarcia)
 - **Email**: [Send me an email](mailto:your.luisdavidgarcia@protonmail.com)
+
+## Resources
+- **Image Embedder** [Site to Embedded Images](https://www.labnol.org/embed/google/drive/)

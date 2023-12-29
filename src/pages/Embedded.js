@@ -42,6 +42,7 @@ function Embedded() {
                 {embeddedProjects.map((project, index) => (
                     <Card
                         key={index}
+                        className="fixed-size-card" 
                         title={project.title}
                         description={project.description}
                         imageUrl={project.imageUrl}

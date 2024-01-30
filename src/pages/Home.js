@@ -11,10 +11,9 @@ import aiImage from '../assets/images/ai.jpg';
 import '../assets/styles/Home.css';
 import RecentWorks from '../components/RecentWorks';
 import Skills from '../components/Skills';
-
-const CaptionThis = 'https://lh3.googleusercontent.com/drive-viewer/AEYmBYTiPm75wR9vREFqWv4z5ZtxNMosivTo3Zn3bTE4Tb24Mn14gtdb6iF9I0tgulMbDWZIb9bkfIuflpa7IYk_oJGSuTqfsw=s1600';
-const CookMyFridge = 'https://lh3.googleusercontent.com/drive-viewer/AEYmBYQ07GZIfNC7LtbpD7p0OsX7VRVnvIqS09sUXs4lZGwVRXiuT6iD2A26pJRBzxPgf0zZTW6Jj6Okm1w3P7ozBWpSI3_Xlg=s1600';
-const Kinect = 'https://lh3.googleusercontent.com/drive-viewer/AEYmBYRZycY9Tsy_d1Jy1tZ8QhMfUYAGbwJTB39t94BMZr-zTy3SdqFwhHzj4IUuUZBwXuIqn-4d5t759fAEF8HkiEkucXYrkw=s1600';
+import CaptionThis from '../assets/card_images/captionthis.png'
+import CookMyFridge from '../assets/card_images/cookmyfridge.png'
+import Kinect from '../assets/card_images/kinectsecurity.png'
 
 function Home() {
     return (

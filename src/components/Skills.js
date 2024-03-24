@@ -6,6 +6,7 @@ import cLogo from '../assets/logo_images/C_Logo.png';
 import rustLogo from '../assets/logo_images/Rust-Logo.png';
 import cSharpLogo from '../assets/logo_images/C-Sharp_Logo.png';
 import javaLogo from '../assets/logo_images/Java-Logo.png';
+import goLogo from '../assets/logo_images/go-logo.png';
 import bashLogo from '../assets/logo_images/bashlogo.png';
 import reactLogo from '../assets/logo_images/reactlogo.svg';
 import htmlLogo from '../assets/logo_images/html5logo.jpg';
@@ -29,6 +30,7 @@ function Skills() {
         { src: rustLogo, alt: 'Rust', title: 'Rust' },
         { src: cSharpLogo, alt: 'C#', title: 'C#' },
         { src: javaLogo, alt: 'Java', title: 'Java' },
+        { src: goLogo, alt: 'Go', title: 'Go'},
         { src: bashLogo, alt: 'Bash', title: 'Bash' },
         { src: reactLogo, alt: 'React', title: 'React' },
         { src: htmlLogo, alt: 'HTML', title: 'HTML' },

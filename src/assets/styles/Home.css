@@ -81,3 +81,23 @@
     height: 40px; /* Example size, adjust as needed */
     width: auto; /* Maintain aspect ratio */
 }
+
+body, .about-section, .card-container, .mission-statement, .strength-statement {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* You might also want to ensure links and other elements adhere to the theme */
+a, .link-color {
+    color: var(--link-color);
+}
+
+/* For elements like .strength-statement where you have a specific color defined, 
+you can define and use another variable for special text or override it in the theme attribute selector */
+.strength-statement {
+    color: var(--strong-text-color, darkblack); /* default color used if --strong-text-color is not defined */
+}
+
+[data-theme='dark'] {
+    --strong-text-color: #bbb; /* Example of overriding for dark mode */
+}

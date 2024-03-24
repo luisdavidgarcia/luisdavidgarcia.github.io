@@ -1,5 +1,7 @@
 .card {
-    border: 1px solid #ddd;
+    border: 1px solid var(--card-border-color);
+    background: var(--card-background-color);
+    box-shadow: 0 4px 8px var(--card-box-shadow-color);
     overflow: hidden;
     margin: 10px;
     text-align: center;
@@ -9,11 +11,13 @@
     max-height: 400px;
     display: flex;
     flex-direction: column;
-    background: white;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.2s;
+}
+
+.card-body, .card-title, .card-text {
+    color: var(--card-text-color);
 }
 
 .card img {

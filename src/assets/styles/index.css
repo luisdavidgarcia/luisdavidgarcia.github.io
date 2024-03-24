@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  /* Existing theme variables */
+  --background-color: #fff;
+  --text-color: #333;
+
+  /* Additional variables for footer */
+  --footer-background-color: #f8f9fa; /* Light theme footer background */
+  --footer-text-color: var(--text-color); /* Use the same text color variable */
+
+  --card-background-color: #fff;
+  --card-text-color: #333;
+  --card-border-color: #ddd;
+  --card-box-shadow-color: rgba(0,0,0,0.1);
+
+  --link-color: #007bff; 
+}
+
+[data-theme='dark'] {
+  /* Overrides for dark theme */
+  --background-color: #333;
+  --text-color: #fff;
+
+  /* Dark theme footer styles */
+  --footer-background-color: #222; /* Darker background for the footer */
+  --footer-text-color: #eee; /* Lighter text for visibility */
+
+  --card-background-color: #222;
+  --card-text-color: #fff;
+  --card-border-color: #444;
+  --card-box-shadow-color: rgba(255,255,255,0.1);
+}
+
+a, .btn {
+  color: var(--link-color);
+}
+

@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import myLG from '../../assets/logo_images/myLG.png';
 import '../../assets/styles/Navbar.css';
 
-const Navbar = () => {
+const Navbar = ({ toggleTheme }) => {
     const [isOpen, setIsOpen] = useState(false);
 
     useEffect(() => {
@@ -59,6 +59,7 @@ const Navbar = () => {
                     </NavLink>
                 </li>
             </ul>
+            <button className="theme-toggle" onClick={toggleTheme}>Toggle Theme</button> {/* Theme toggle button */}
         </nav>
     );
 };

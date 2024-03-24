@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #333;
+    background-color: #0E0E10;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -114,4 +114,20 @@
         width: 100%; /* Prevent horizontal scroll */
         position: fixed; /* Prevent scrolling on iOS */
     }
+}
+
+.theme-toggle {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 1px solid var(--link-color); /* Use theme variable for border */
+    color: var(--link-color); /* Use theme variable for text color */
+    border-radius: 5px;
+}
+
+/* You can add :hover and :focus styles for better interactivity */
+.theme-toggle:hover,
+.theme-toggle:focus {
+    background-color: var(--link-color);
+    color: var(--background-color);
 }

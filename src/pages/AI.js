@@ -1,15 +1,6 @@
 import React from 'react';
 import Card from '../components/common/Card';
-import CaptionThisImage from '../assets/card_images/captionthis.png'
-
-const aiProjects = [
-    {
-        title: 'CaptionThis',
-        description: "A Python-based deep learning tool for generating insightful captions for images. Utilizing the BLIP model and trained using Google's Conceptual Captions dataset.",
-        imageUrl: CaptionThisImage,
-        link: 'https://github.com/luisdavidgarcia/CaptionThis',
-    },
-];
+import aiProjects from '../data/aiProjects';
 
 function AI() {
     return (

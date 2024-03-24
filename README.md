@@ -36,7 +36,17 @@ docker build -t luis-portfolio .
 docker-compose up --build
 ```
 
+## Deploying Site
+
+Run the following commands:
+
+```sh
+npm run build
+npm run deploy
+```
+
 ## Future Enhancements
+
 - Continuous updates with new projects and skills.
 - Ongoing UI/UX refinements for optimal cross-device experience.
 

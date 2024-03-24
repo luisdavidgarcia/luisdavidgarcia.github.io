@@ -11,11 +11,11 @@ import aiImage from '../assets/images/ai.jpg';
 import '../assets/styles/Home.css';
 import RecentWorks from '../components/RecentWorks';
 import Skills from '../components/Skills';
-import CaptionThis from '../assets/card_images/captionthis.png'
-import CookMyFridge from '../assets/card_images/cookmyfridge.png'
-import Kinect from '../assets/card_images/kinectsecurity.png'
+import aiProjects from '../data/aiProjects';
 
 function Home() {
+    const selectedProjects = aiProjects.slice(0, 3);
+
     return (
         <div>
             <section className="about-section">
@@ -126,20 +126,20 @@ function Home() {
             </section>
             <section className="recent-works-section">
                 <RecentWorks
-                    project1Title="Cook My Fridge"
-                    project1Description="An automated recipe generator that suggests recipes based on the ingredients you have in your fridge. Built with React, Node.js, and MongoDB."
-                    project1URL="https://github.com/aahmadyar123/CookMyFridge"
-                    project1Image={CookMyFridge}
+                    project1Title={selectedProjects[0].title}
+                    project1Description={selectedProjects[0].description}
+                    project1URL={selectedProjects[0].link}
+                    project1Image={selectedProjects[0].imageUrl}
 
-                    project2Title="Kinect Security Flask Server"
-                    project2Description="Xbox 360 Kinect into a real-time webcam with this innovative project. Leveraging Flask, OpenCV2, and Kinect USB Adapter, it streams Kinect footage through a web app."
-                    project2URL="https://github.com/luisdavidgarcia/Kinect_Security_Flask_Server"
-                    project2Image={Kinect}
-                    
-                    project3Title="Caption This"
-                    project3Description="A Python-based deep learning tool for generating insightful captions for images. Utilizing the BLIP model and trained using Google's Conceptual Captions dataset."
-                    project3URL="https://github.com/luisdavidgarcia/CaptionThis"
-                    project3Image={CaptionThis}
+                    project2Title={selectedProjects[1].title}
+                    project2Description={selectedProjects[1].description}
+                    project2URL={selectedProjects[1].link}
+                    project2Image={selectedProjects[1].imageUrl}
+
+                    project3Title={selectedProjects[2].title}
+                    project3Description={selectedProjects[2].description}
+                    project3URL={selectedProjects[2].link}
+                    project3Image={selectedProjects[2].imageUrl}
                 />
             </section>
             <br />

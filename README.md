@@ -18,20 +18,23 @@ Welcome to my professional portfolio, showcasing my skills and projects in softw
 
 ## Running Docker Environment
 
-**Building Docker Image**
+**Ensure in Proper Directory**
 
 ```sh
 cd luisdavidgarcia.github.io
+```
+
+**Building Docker Image**
+
+```sh
 docker build -t luis-portfolio .
 ```
 
 **Running Docker Container**
 
 ```sh
-docker run -v $(pwd):/usr/src/app -p 3000:3000 luis-portfolio
+docker-compose up --build
 ```
-
-How to 
 
 ## Future Enhancements
 - Continuous updates with new projects and skills.

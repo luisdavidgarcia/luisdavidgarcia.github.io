@@ -29,7 +29,9 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
-            <img src={myLG} alt="My Logo" className="navbar-logo" />
+            <NavLink to="/" className="navbar-logo">
+                <img src={myLG} alt="My Logo" className="navbar-logo" />
+            </NavLink>
             <button className={`hamburger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
                 <span className="hamburger-line"></span>
                 <span className="hamburger-line"></span>

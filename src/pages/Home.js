@@ -130,10 +130,12 @@ function Home() {
                     project1Description="An automated recipe generator that suggests recipes based on the ingredients you have in your fridge. Built with React, Node.js, and MongoDB."
                     project1URL="https://github.com/aahmadyar123/CookMyFridge"
                     project1Image={CookMyFridge}
+
                     project2Title="Kinect Security Flask Server"
                     project2Description="Xbox 360 Kinect into a real-time webcam with this innovative project. Leveraging Flask, OpenCV2, and Kinect USB Adapter, it streams Kinect footage through a web app."
                     project2URL="https://github.com/luisdavidgarcia/Kinect_Security_Flask_Server"
                     project2Image={Kinect}
+                    
                     project3Title="Caption This"
                     project3Description="A Python-based deep learning tool for generating insightful captions for images. Utilizing the BLIP model and trained using Google's Conceptual Captions dataset."
                     project3URL="https://github.com/luisdavidgarcia/CaptionThis"

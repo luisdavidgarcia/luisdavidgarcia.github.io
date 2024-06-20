@@ -1,12 +1,18 @@
 [
     {
+        "title": "SuperMarioRL",
+        "description": "A reinforcement learning project using the PPO algorithm to train an AI agent to play Super Mario Bros. on the NES console.",
+        "imageUrl": "/project_card_images/supermariorl.webp",
+        "link": "https://github.com/luisdavidgarcia/SuperMarioRL"
+    },
+    {
         "title": "PokeGenerator",
         "description": "A Keras deep learning project employing variational autoencoders and latent diffusion models to generate novel 128x128 RGB Pokémon sprites.",
         "imageUrl": "/project_card_images/pokegenerator.webp",
         "link": "https://github.com/luisdavidgarcia/PokeGenerator"
     },
     {
-        "title": "Botnet_ML_Feature_Analysis",
+        "title": "DDoS ML Feature Analysis",
         "description": "IoT intrusion detection project enhancing detection accuracy of DoS/DDoS attacks through data imbalance correction using SMOTE and machine learning classifiers, achieving an F1-score of 0.999983.",
         "imageUrl": "/project_card_images/botnetmlfeatureanalysis.webp",
         "link": "https://github.com/luisdavidgarcia/Botnet_ML_Feature_Analysis"

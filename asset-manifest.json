@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f671a8cc.css",
-    "main.js": "/static/js/main.ee61bd65.js",
+    "main.js": "/static/js/main.198c26cf.js",
     "static/media/Linux-Logo.png": "/static/media/Linux-Logo.473b5b1180d740ee9dbd.png",
     "static/media/myLG.png": "/static/media/myLG.c74802c8b1b9d1dc90a7.png",
     "static/media/ai.jpg": "/static/media/ai.9fd1d02550aa16dd9430.jpg",
@@ -34,10 +34,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.f671a8cc.css.map": "/static/css/main.f671a8cc.css.map",
-    "main.ee61bd65.js.map": "/static/js/main.ee61bd65.js.map"
+    "main.198c26cf.js.map": "/static/js/main.198c26cf.js.map"
   },
   "entrypoints": [
     "static/css/main.f671a8cc.css",
-    "static/js/main.ee61bd65.js"
+    "static/js/main.198c26cf.js"
   ]
 }

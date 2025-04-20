@@ -1,5 +1,8 @@
 import React from 'react';
 import '../assets/styles/Skills.css';
+import NextArrow from './common/NextSliderArrow';
+import PrevArrow from './common/PrevSliderArrow';
+
 import pythonLogo from '../assets/logo_images/python-logo.png';
 import cppLogo from '../assets/logo_images/C++_Logo.png';
 import cLogo from '../assets/logo_images/C_Logo.png';
@@ -22,41 +25,96 @@ import tensorflowLogo from '../assets/logo_images/tensorflow_logo.webp';
 import kerasLogo from '../assets/logo_images/keras-logo.png';
 import pytorchLogo from '../assets/logo_images/pytorchlogo.webp';
 
+import Slider from 'react-slick';
+
 function Skills() {
-    const skills = [
-        { src: cppLogo, alt: 'C++', title: 'C++' },
-        { src: cLogo, alt: 'C', title: 'C' },
-        { src: pythonLogo, alt: 'Python', title: 'Python' },
-        { src: rustLogo, alt: 'Rust', title: 'Rust' },
-        { src: cSharpLogo, alt: 'C#', title: 'C#' },
-        { src: javaLogo, alt: 'Java', title: 'Java' },
-        { src: goLogo, alt: 'Go', title: 'Go'},
-        { src: bashLogo, alt: 'Bash', title: 'Bash' },
-        { src: reactLogo, alt: 'React', title: 'React' },
-        { src: htmlLogo, alt: 'HTML', title: 'HTML' },
-        { src: cssLogo, alt: 'CSS', title: 'CSS' },
-        { src: nodeJSLogo, alt: 'node.js', title: 'node.js' },
-        { src: linuxLogo, alt: 'Linux', title: 'Linux' },
-        { src: gitLogo, alt: 'Git', title: 'Git' },
-        { src: vimLogo, alt: 'Vim', title: 'Vim' },
-        { src: stm32Logo, alt: 'STM32', title: 'STM32' },
-        { src: raspberryPiLogo, alt: 'Raspberry Pi', title: 'Raspberry Pi' },
-        { src: dockerLogo, alt: 'Docker', title: 'Docker'},
-        { src: tensorflowLogo, alt: 'TensorFlow', title: 'TensorFlow' },
-        { src: kerasLogo, alt: 'Keras', title: 'Keras' },
-        { src: pytorchLogo, alt: 'PyTorch', title: 'PyTorch' },
-    ];
+    const settings = {
+        className: "center",
+        centerMode: true,
+        infinite: true,
+        speed: 500,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+    };
+
+    const skills = {
+        "Programming Languages": [
+            { src: cppLogo, alt: 'C++', title: 'C++' },
+            { src: cLogo, alt: 'C', title: 'C' },
+            { src: pythonLogo, alt: 'Python', title: 'Python' },
+            { src: rustLogo, alt: 'Rust', title: 'Rust' },
+            { src: cSharpLogo, alt: 'C#', title: 'C#' },
+            { src: javaLogo, alt: 'Java', title: 'Java' },
+            { src: goLogo, alt: 'Go', title: 'Go'}
+        ],
+        "Web Development": [
+            { src: reactLogo, alt: 'React', title: 'React' },
+            { src: htmlLogo, alt: 'HTML', title: 'HTML' },
+            { src: cssLogo, alt: 'CSS', title: 'CSS' },
+            { src: nodeJSLogo, alt: 'node.js', title: 'node.js' }
+        ],
+        "Tools & Technologies": [
+            { src: bashLogo, alt: 'Bash', title: 'Bash' },
+            { src: linuxLogo, alt: 'Linux', title: 'Linux' },
+            { src: gitLogo, alt: 'Git', title: 'Git' },
+            { src: vimLogo, alt: 'Vim', title: 'Vim' },
+            { src: dockerLogo, alt: 'Docker', title: 'Docker'}
+        ],
+        "Embedded Systems & Hardware": [
+            { src: stm32Logo, alt: 'STM32', title: 'STM32' },
+            { src: raspberryPiLogo, alt: 'Raspberry Pi', title: 'Raspberry Pi' }
+        ],
+        "Machine Learning": [
+            { src: tensorflowLogo, alt: 'TensorFlow', title: 'TensorFlow' },
+            { src: kerasLogo, alt: 'Keras', title: 'Keras' },
+            { src: pytorchLogo, alt: 'PyTorch', title: 'PyTorch' }
+        ]
+    };
 
     return (
         <section className="skills-section">
-            <h2>Skills</h2>
-            <div className="skills-grid">
-                {skills.map((skill, index) => (
+            <h2>Programming Languages</h2>
+            <Slider {...{...settings, slidesToShow: 4}}>
+                {skills["Programming Languages"].map((skill, index) => (
                     <div key={index} className="skill-item">
                         <img src={skill.src} alt={skill.alt} />
                     </div>
                 ))}
-            </div>
+            </Slider>
+            <h2>Machine Learning</h2>
+            <Slider {...{...settings, slidesToShow: 3}}>
+                {skills["Machine Learning"].map((skill, index) => (
+                    <div key={index} className="skill-item">
+                        <img src={skill.src} alt={skill.alt} />
+                    </div>
+                ))}
+            </Slider>
+            <h2>Tools & Technologies</h2>
+            <Slider {...{...settings, slidesToShow: 4}}>
+                {skills["Tools & Technologies"].map((skill, index) => (
+                    <div key={index} className="skill-item">
+                        <img src={skill.src} alt={skill.alt} />
+                    </div>
+                ))}
+            </Slider>
+            <h2>Web Development</h2>
+            <Slider {...{...settings, slidesToShow: 4}}>
+                {skills["Web Development"].map((skill, index) => (
+                    <div key={index} className="skill-item">
+                        <img src={skill.src} alt={skill.alt} />
+                    </div>
+                ))}
+            </Slider>
+            <h2>Embedded Systems & Hardware</h2>
+            <Slider {...{...settings, slidesToShow: 2}}>
+                {skills["Embedded Systems & Hardware"].map((skill, index) => (
+                    <div key={index} className="skill-item">
+                        <img src={skill.src} alt={skill.alt} />
+                    </div>
+                ))}
+            </Slider>
         </section>
     );
 }

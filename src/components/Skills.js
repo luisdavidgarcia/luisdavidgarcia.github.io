@@ -1,7 +1,6 @@
 import React from 'react';
-import '../assets/styles/Skills.css';
-import NextArrow from './common/NextSliderArrow';
-import PrevArrow from './common/PrevSliderArrow';
+import Slider from 'react-slick';
+import '../assets/styles/Skills.css';;
 
 import pythonLogo from '../assets/logo_images/python-logo.png';
 import cppLogo from '../assets/logo_images/C++_Logo.png';
@@ -24,8 +23,6 @@ import dockerLogo from '../assets/logo_images/docker_logo.svg';
 import tensorflowLogo from '../assets/logo_images/tensorflow_logo.webp';
 import kerasLogo from '../assets/logo_images/keras-logo.png';
 import pytorchLogo from '../assets/logo_images/pytorchlogo.webp';
-
-import Slider from 'react-slick';
 
 function Skills() {
     const settings = {

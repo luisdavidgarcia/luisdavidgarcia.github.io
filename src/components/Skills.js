@@ -1,7 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
-import '../assets/styles/Skills.css';;
-
+import '../assets/styles/Skills.css';
 import pythonLogo from '../assets/logo_images/python-logo.png';
 import cppLogo from '../assets/logo_images/C++_Logo.png';
 import cLogo from '../assets/logo_images/C_Logo.png';

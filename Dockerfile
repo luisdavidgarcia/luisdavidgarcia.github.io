@@ -1,18 +1,19 @@
-# Use a Node.js base image
-FROM node:16
+FROM python:3.13.5-bookworm
 
-# Set the working directory in the container
-WORKDIR /usr/src/app
+WORKDIR /app
 
-# Copy package.json 
-COPY package.json ./
+COPY requirements.txt .
 
-# Install dependencies
-RUN npm install
+RUN pip install --upgrade pip && \
+    pip install -r requirements.txt
 
-# Expose port 3000 for the React app
-EXPOSE 3000
+#RUN git clone https://github.com/petrnohejl/minimal-xy.git themes/minimal-xy
 
-# Command to run the app
-CMD ["npm", "start"]
+#COPY . .
+
+#RUN make html
+
+#CMD ["make", "devserver"]
+
+CMD ["/bin/bash"]
 

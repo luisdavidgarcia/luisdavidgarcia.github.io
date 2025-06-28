@@ -1,10 +1,53 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Pelican output folder
+output/
+*.html
+*.pyc
+*.pyo
+__pycache__/
+.cache/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-browser_components
+# Pelican cache (if used)
+cache/
+*.db
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python environment files
+*.egg-info/
+*.egg
+*.log
+*.pot
+*.mo
+.env
+.venv
+venv/
+ENV/
+
+# Editor folders
+.vscode/
+.idea/
+
+# Compiled files
+*.swp
+*.swo
+
+# Node (in case of front-end tools)
+node_modules/
+
+# Docker
+*.pid
+*.sock
+
+# Optional: if you pull in themes as submodules or download
+themes/*
+
+# GitHub Pages branch (if deploying manually)
+gh-pages/
+
+# Jupyter or notebook temp files (in case)
+.ipynb_checkpoints/
 
 # testing
 /coverage
@@ -22,3 +65,4 @@ browser_components
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+

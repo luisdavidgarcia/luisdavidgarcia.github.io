@@ -1,0 +1,35 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+    inputs:
+      deploy:
+        required: false
+        default: true
+        description: >
+          Whether to deploy the site. If checked then, then build and deploy 
+          the site. If not checked, just build to test.
+        type: boolean
+
+jobs:
+  deploy:
+    uses: "getpelican/pelican/.github/workflows/github_pages.yml@main"
+    permissions:
+      contents: "read"
+      pages: "write"
+      id-token: "write"
+    with:
+      settings: "publishconf.py"
+      requirements: "-r requirements.txt"
+      python: "3.13"
+      theme: "https://github.com/luisdavidgarcia/minimal-xy.git"
+      deploy: > 
+        ${{ (github.event_name == 'workflow_dispatch' && 
+              inputs.deploy == true) || 
+             (github.event_name == 'push' && 
+              github.ref == 'refs/heads/main') }}
+

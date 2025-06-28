@@ -9,7 +9,7 @@ on:
     inputs:
       deploy:
         required: false
-        default: true
+        default: "true"
         description: >
           Whether to deploy the site. If checked then, then build and deploy 
           the site. If not checked, just build to test.

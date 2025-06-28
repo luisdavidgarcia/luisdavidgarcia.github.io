@@ -9,7 +9,7 @@ on:
     inputs:
       deploy:
         required: false
-        default: "true"
+        default: true
         description: >
           Whether to deploy the site. If checked then, then build and deploy 
           the site. If not checked, just build to test.
@@ -19,9 +19,9 @@ jobs:
   deploy:
     uses: "getpelican/pelican/.github/workflows/github_pages.yml@main"
     permissions:
-      contents: "read"
-      pages: "write"
-      id-token: "write"
+      id-token: write
+      contents: read
+      pages: write
     with:
       settings: "publishconf.py"
       requirements: "-r requirements.txt"

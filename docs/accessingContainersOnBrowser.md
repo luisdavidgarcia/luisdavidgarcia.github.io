@@ -8,3 +8,6 @@ you are using and even your terminal.
 1. Go to System Settings -> Privacy & Security -> Local Network
 2. Toggle the applications in which you want to allow (e.g Firefox, Brave,
    Chrome)
+
+## Acquiring the Theme:
+

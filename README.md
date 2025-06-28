@@ -51,3 +51,4 @@ make run-macOS
 ## Resources
 - [Pelican Docs](https://docs.getpelican.com/en/latest/)
 - [minimal-xy](https://github.com/petrnohejl/minimal-xy)
+- [Setting Up Github Actions](https://github.com/seanh/ghp-pelican)

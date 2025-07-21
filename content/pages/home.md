@@ -20,6 +20,9 @@ Summary: Welcome to my site
   <a href="https://www.youtube.com/@DonLDG/">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
   </a>&nbsp;&nbsp;
+  <a href="https://github.com/luisdavidgarcia">
+    <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
+  </a>&nbsp;&nbsp;
   <a href="mailto:luisdgarcia.mi@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white">
   </a>&nbsp;&nbsp;
@@ -29,13 +32,13 @@ Summary: Welcome to my site
 
 <p align="center">
   <span style="display:inline-block;">
-    <img src="https://img.shields.io/badge/C%2B%2B-17%2F20-00599C?logo=c%2B%2B&logoColor=white" alt="C++ 17/20" />
+    <img src="https://img.shields.io/badge/C%2B%2B-20%2F23-00599C?logo=c%2B%2B&logoColor=white" alt="C++ 20/23" />
   </span>
   <span style="display:inline-block;">
     <img src="https://img.shields.io/badge/Zephyr-RTOS-purple?logo=linux" alt="Zephyr RTOS" />
   </span>
   <span style="display:inline-block;">
-    <img src="https://img.shields.io/badge/Embedded%20Linux-ARM-blue?logo=linux" alt="Embedded Linux on ARM" />
+    <img src="https://img.shields.io/badge/Embedded%20Linux-ARM-4EAA25?logo=linux" alt="Embedded Linux on ARM" />
   </span>
   <span style="display:inline-block;">
     <img src="https://img.shields.io/badge/Docker-Automation-blue?logo=docker&logoColor=white" alt="Docker Automation" />
@@ -66,7 +69,7 @@ My work bridges the gap between **embedded firmware** and **infrastructure tooli
 
 <h3>💻 Languages</h3>
 <div class="badge-row">
-  <img src="https://img.shields.io/badge/C++17%2F20-00599C?logo=c%2B%2B&logoColor=white&style=for-the-badge" alt="C++17/20">
+  <img src="https://img.shields.io/badge/C++20%2F23-00599C?logo=c%2B%2B&logoColor=white&style=for-the-badge" alt="C++20/23">
   <img src="https://img.shields.io/badge/C-blue?logo=c&logoColor=white&style=for-the-badge" alt="C">
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" alt="Python">
   <img src="https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white&style=for-the-badge" alt="Bash">
@@ -154,4 +157,15 @@ _International Symposium on Intelligent Computing and Networking (ISICN 2025)_
 - 🐙 GitHub: [github.com/luisdavidgarcia](https://github.com/luisdavidgarcia)  
 - 💼 LinkedIn: [linkedin.com/in/luisgd](https://www.linkedin.com/in/luisgd/)  
 
+<!-- Certifications -->
+## 🏅 Certifications
+<div class="badge-row">
+    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3339f1ac-9421-403e-964d-696f65a83dc7" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="eed35e55-1541-4846-b7c0-35382cacf004" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="ba217e51-c8bc-4684-be89-09e915dee947" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="92a61976-3d4e-475b-8181-19e7af6a2aa2" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="cc02403d-5d0b-497d-b1b4-38d56d29a6c8" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="109ccb98-6083-4e06-ab38-4ef03331a64a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="158b872c-43f3-478e-ae0a-f07a2f9f376b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+</div>
 

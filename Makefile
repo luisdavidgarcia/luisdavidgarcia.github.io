@@ -78,11 +78,11 @@ github: publish
 	ghp-import -m "$(GITHUB_PAGES_COMMIT_MESSAGE)" -b $(GITHUB_PAGES_BRANCH) "$(OUTPUTDIR)" --no-jekyll
 	git push origin $(GITHUB_PAGES_BRANCH)
 
-build-macOS:
-	container build -t "$(CONTAINER_IMAGE_NAME)" .
+build:
+	docker build -t "$(CONTAINER_IMAGE_NAME)" .
 
-run-macOS: build-macOS
-	container run -it --rm -v $(CURDIR):/app "$(CONTAINER_IMAGE_NAME)"
+run: build
+	docker run -it --rm -v $(CURDIR):/app "$(CONTAINER_IMAGE_NAME)"
 
 
 .PHONY: html help clean regenerate serve serve-global devserver devserver-global publish github

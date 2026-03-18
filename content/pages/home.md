@@ -1,98 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+Title: Home
+Slug: index
+Save_as: index.html
+Date: 2025-06-24
+Summary: Welcome to my site
 
-    <title>Home &ndash; Luis's Portfolio. Lets Collobrate!</title>
-
-    <!-- Meta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Social -->
-    <meta property="og:type" content="article"/>
-    <meta property="og:title" content="Home"/>
-    <meta property="og:description" content=""/>
-    <meta property="og:site_name" content="Luis's Portfolio. Lets Collobrate!" />
-    <meta property="og:url" content="https://luisdavidgarcia.github.io/index.html"/>
-    <meta property="og:image" content=""/>
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Home">
-    <meta name="twitter:description" content="">
-    <meta name="twitter:url" content="https://luisdavidgarcia.github.io/index.html">
-    <meta name="twitter:image" content="">
-
-    <!-- Feed -->
-    <link rel="alternate" type="application/atom+xml" href="https://luisdavidgarcia.github.io/feeds/all.atom.xml" title="Luis's Portfolio. Lets Collobrate! Atom Feed" />
-
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:regular,bold">
-    <link rel="stylesheet" type="text/css" href="https://luisdavidgarcia.github.io/theme/css/w3.css">
-    <link rel="stylesheet" type="text/css" href="https://luisdavidgarcia.github.io/theme/css/style.css">
-    <link rel="stylesheet" type="text/css" href="https://luisdavidgarcia.github.io/theme/css/jqcloud.css">
-    <link rel="stylesheet" type="text/css" href="https://luisdavidgarcia.github.io/theme/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="https://luisdavidgarcia.github.io/theme/css/pygments-highlight-github.css">
-
-    <!-- Icon -->
-
-    <!-- JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://luisdavidgarcia.github.io/theme/js/jqcloud.min.js"></script>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
-
-    <style>
-    /* Carousel image sizing */
-    .clgide .glide__slide img {
-      max-width: 100%;
-      height: auto;
-      object-fit: contain;
-      max-height: 300px;  /* Adjust this as needed */
-      margin: 0 auto;
-      display: block;
-    }
-
-    /* Optional: limit carousel container width */
-    .clgide {
-      max-width: 600px;
-      margin: 0 auto;
-    }
-  </style>
-
-  </head>
-
-  <body>
-    <div class="w3-row w3-card w3-border-black w3-black">
-      <header id="header">
-        <a href="https://luisdavidgarcia.github.io" id="header-logo" title="Home">LD</a>
-        <nav id="header-menu">
-          <ul>
-            <li class="w3-bottombar w3-border-green w3-hover-border-green active"><a href="https://luisdavidgarcia.github.io/index.html">Home</a></li>
-          </ul>
-        </nav>
-      </header>
-    </div>
-
-
-
-    <br><br><br>
-
-    <article>
-      <header class="w3-container col-main">
-        <h1>Home</h1>
-        <div class="post-info">
-          <div class="w3-opacity w3-margin-right w3-margin-bottom" style="flex-grow: 1;">
-            
-          </div>
-        </div>
-      </header>
-
-      <br>
-
-      <div class="col-main w3-container">
-        <section id="content">
-          <!-- Cover Photo -->
+<!-- Cover Photo -->
 <div align="center" class="cover-photo">
 <img src="images/Headshot.png" 
      alt="Cover Photo" 
@@ -117,7 +29,8 @@
   </a>&nbsp;&nbsp;
 </p>
 
-<hr>
+---
+
 <h3 align="center">⚙️ Firmware Engineer | 🦾 ARM Cortex | 💾 Bare-Metal C | 🔬 Hardware Bring-Up</h3>
 
 <p align="center">
@@ -129,13 +42,19 @@
   <a><img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" alt="Python" /></a>
 </p>
 
-<hr>
-<h2>🧠 About Me</h2>
-<p>⚡ Firmware Engineer at Abbott developing safety-critical bare-metal C firmware for implantable cardiac devices on ARM Cortex-M. My work spans register-level peripheral drivers, low-power sequencing, and hardware bring-up across embedded platforms.</p>
-<p>🔧 Outside of work I build on the Arty Z7 (Zynq-7000), focusing on AXI peripheral validation, custom bootloaders, and hardware-in-the-loop test automation.</p>
-<hr>
-<h2>🔨 Technologies &amp; Tools</h2>
-<h3>💻 Languages</h3>
+---
+
+## 🧠 About Me
+
+⚡ Firmware Engineer at Abbott developing safety-critical bare-metal C firmware for implantable cardiac devices on ARM Cortex-M. My work spans register-level peripheral drivers, low-power sequencing, and hardware bring-up across embedded platforms.
+
+🔧 Outside of work I build on the Arty Z7 (Zynq-7000), focusing on AXI peripheral validation, custom bootloaders, and hardware-in-the-loop test automation.
+
+---
+
+## 🔨 Technologies & Tools
+
+### 💻 Languages
 <p align="center">
   <a><img src="https://img.shields.io/badge/C-00599C?logo=c&logoColor=white&style=for-the-badge" alt="C" /></a>&nbsp;&nbsp;
   <a><img src="https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white&style=for-the-badge" alt="C++" /></a>&nbsp;&nbsp;
@@ -144,7 +63,7 @@
   <a><img src="https://img.shields.io/badge/SystemVerilog-ED1C24?logo=amd&logoColor=white&style=for-the-badge" alt="SystemVerilog" /></a>
 </p>
 
-<h3>🔩 Firmware &amp; Hardware</h3>
+### 🔩 Firmware & Hardware
 <p align="center">
   <a><img src="https://img.shields.io/badge/ARM_Cortex--M-0091BD?logo=arm&logoColor=white&style=for-the-badge" alt="ARM Cortex-M" /></a>&nbsp;&nbsp;
   <a><img src="https://img.shields.io/badge/Zynq%20%7C%20Vivado-ED1C24?logo=amd&logoColor=white&style=for-the-badge" alt="Zynq Vivado" /></a>&nbsp;&nbsp;
@@ -154,7 +73,7 @@
   <a><img src="https://img.shields.io/badge/AXI-607D8B?style=for-the-badge" alt="AXI" /></a>
 </p>
 
-<h3>🐛 Debug &amp; Toolchain</h3>
+### 🐛 Debug & Toolchain
 <p align="center">
   <a><img src="https://img.shields.io/badge/J--Link%20%7C%20JTAG-darkgrey?logo=arm&logoColor=white&style=for-the-badge" alt="J-Link JTAG" /></a>&nbsp;&nbsp;
   <a><img src="https://img.shields.io/badge/GDB-lightgrey?logo=gnu&logoColor=white&style=for-the-badge" alt="GDB" /></a>&nbsp;&nbsp;
@@ -164,24 +83,29 @@
   <a><img src="https://img.shields.io/badge/Azure%20DevOps-0078D7?logo=azuredevops&logoColor=white&style=for-the-badge" alt="Azure DevOps" /></a>
 </p>
 
-<hr>
-<h2>🚧 Currently Building</h2>
-<ul>
-<li>🔌 Custom AXI-Lite peripheral in SystemVerilog with bare-metal ARM Cortex-A9 drivers</li>
-<li>🥾 Second-stage bootloader replacing Xilinx FSBL with DDR3 init and MMU configuration</li>
-<li>🧪 cocotb-based HIL validation framework for SPI/I2C/UART register-level testing</li>
-</ul>
-<hr>
+---
+
+## 🚧 Currently Building
+
+- 🔌 Custom AXI-Lite peripheral in SystemVerilog with bare-metal ARM Cortex-A9 drivers
+- 🥾 Second-stage bootloader replacing Xilinx FSBL with DDR3 init and MMU configuration
+- 🧪 cocotb-based HIL validation framework for SPI/I2C/UART register-level testing
+
+---
+
 <!-- Publications Section -->
-<h2>📚 Publications</h2>
-<p>📄 <strong>“Real-Time DDoS Detection Using a Docker-Based Machine Learning Testbed”</strong>
+## 📚 Publications
+
+📄 **“Real-Time DDoS Detection Using a Docker-Based Machine Learning Testbed”**
 <br>
-<em>International Symposium on Intelligent Computing and Networking (ISICN 2025)</em>
+_International Symposium on Intelligent Computing and Networking (ISICN 2025)_
 <br>
-→ First-author paper leveraging containerized ML infrastructure for edge threat detection</p>
-<hr>
+→ First-author paper leveraging containerized ML infrastructure for edge threat detection
+
+---
+
 <!-- Certifications -->
-<h2>🏅 Certifications</h2>
+## 🏅 Certifications
 <div class="badge-row">
     <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3339f1ac-9421-403e-964d-696f65a83dc7" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
     <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="eed35e55-1541-4846-b7c0-35382cacf004" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
@@ -191,37 +115,4 @@
     <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="109ccb98-6083-4e06-ab38-4ef03331a64a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
     <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="158b872c-43f3-478e-ae0a-f07a2f9f376b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 </div>
-        </section>
-        
 
-        <br><br><br>
-        
-      </div>
-    </article>
-
-
-    <footer id="footer">
-      <div id="footer-copyright" class="w3-center w3-small w3-text-grey w3-padding-48">
-        <span>
-          &copy;
-          Luis David Garcia
- | <a href="https://luisdavidgarcia.github.io/feeds/all.atom.xml">Atom feed <i class="fa fa-rss" aria-hidden="true"></i></a>        </span>
-      </div>
-    </footer>
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        new Glide('.glide', {
-          type: 'carousel',
-          perView: 1,
-          autoplay: 3000
-        }).mount();
-      });
-    </script>
-
-
-  </body>
-</html>

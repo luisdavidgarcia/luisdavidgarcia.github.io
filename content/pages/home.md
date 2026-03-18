@@ -13,93 +13,83 @@ Summary: Welcome to my site
 
 <!-- Hero Section -->
 <h1 align="center">👋 Welcome, I'm Luis David Garcia</h1>
+
 <p align="center">
   <a href="https://www.linkedin.com/in/luisgd/">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/linkedin-0A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>&nbsp;&nbsp;
   <a href="https://www.youtube.com/@DonLDG/">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
   </a>&nbsp;&nbsp;
   <a href="https://github.com/luisdavidgarcia">
-    <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
+    <img src="https://img.shields.io/badge/github-181717.svg?style=for-the-badge&logo=github&logoColor=white">
   </a>&nbsp;&nbsp;
   <a href="mailto:luisdgarcia.mi@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white">
+    <img src="https://img.shields.io/badge/Email-EA4335.svg?&style=for-the-badge&logo=gmail&logoColor=white">
   </a>&nbsp;&nbsp;
 </p>
 
-<h3 align="center">🚀 Embedded Systems Developer | Modern C++ | Tooling & Real-Time Systems</h3>
+---
+
+<h3 align="center">⚙️ Firmware Engineer | 🦾 ARM Cortex | 💾 Bare-Metal C | 🔬 Hardware Bring-Up</h3>
 
 <p align="center">
-  <span style="display:inline-block;">
-    <img src="https://img.shields.io/badge/C%2B%2B-20%2F23-00599C?logo=c%2B%2B&logoColor=white" alt="C++ 20/23" />
-  </span>
-  <span style="display:inline-block;">
-    <img src="https://img.shields.io/badge/Zephyr-RTOS-purple?logo=linux" alt="Zephyr RTOS" />
-  </span>
-  <span style="display:inline-block;">
-    <img src="https://img.shields.io/badge/Embedded%20Linux-ARM-4EAA25?logo=linux" alt="Embedded Linux on ARM" />
-  </span>
-  <span style="display:inline-block;">
-    <img src="https://img.shields.io/badge/Docker-Automation-blue?logo=docker&logoColor=white" alt="Docker Automation" />
-  </span>
-  <span style="display:inline-block;">
-    <img src="https://img.shields.io/badge/Python-Scripting-3776AB?logo=python&logoColor=yellow" alt="Python Scripting" />
-  </span>
+  <a><img src="https://img.shields.io/badge/C-00599C?logo=c&logoColor=white&style=for-the-badge" alt="C" /></a>&nbsp;&nbsp;
+  <a><img src="https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white&style=for-the-badge" alt="C++" /></a>&nbsp;&nbsp;
+  <a><img src="https://img.shields.io/badge/ARM_Cortex-0091BD?logo=arm&logoColor=white&style=for-the-badge" alt="ARM Cortex" /></a>&nbsp;&nbsp;
+  <a><img src="https://img.shields.io/badge/Zynq%20%7C%20Vivado-ED1C24?logo=amd&logoColor=white&style=for-the-badge" alt="Zynq Vivado" /></a>&nbsp;&nbsp;
+  <a><img src="https://img.shields.io/badge/Zephyr%20RTOS-8253c1?logo=zephyrproject&logoColor=white&style=for-the-badge" alt="Zephyr RTOS" /></a>&nbsp;&nbsp;
+  <a><img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" alt="Python" /></a>
 </p>
-
 
 ---
 
 ## 🧠 About Me
 
-I'm an Embedded Systems Developer with a passion for building **robust, efficient software** in **modern C++** for **resource-constrained platforms**. I specialize in:
+⚡ Firmware Engineer at Abbott developing safety-critical bare-metal C firmware for implantable cardiac devices on ARM Cortex-M. My work spans register-level peripheral drivers, low-power sequencing, and hardware bring-up across embedded platforms.
 
-- 🖥️ **Firmware & drivers** for ARM Cortex-M, STM32, and Zynq SoCs
-- 🧪 **Containerized build/test environments** using Docker and QEMU
-- 🧰 **Infrastructure tooling** for CI/CD, flashing, and hardware testing
-- 🔧 Real-time and low-level systems using **Zephyr RTOS**, **Linux**, and **bare metal**
-- 🧵 **Multithreading**, **protocol stacks**, and **sensor interfaces (I2C, UART, SPI)**
-
-My work bridges the gap between **embedded firmware** and **infrastructure tooling**, with a strong belief in **reproducibility, memory safety, and performance-first design**.
+🔧 Outside of work I build on the Arty Z7 (Zynq-7000), focusing on AXI peripheral validation, custom bootloaders, and hardware-in-the-loop test automation.
 
 ---
 
 ## 🔨 Technologies & Tools
 
-<h3>💻 Languages</h3>
-<div class="badge-row">
-  <img src="https://img.shields.io/badge/C++20%2F23-00599C?logo=c%2B%2B&logoColor=white&style=for-the-badge" alt="C++20/23">
-  <img src="https://img.shields.io/badge/C-blue?logo=c&logoColor=white&style=for-the-badge" alt="C">
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" alt="Python">
-  <img src="https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white&style=for-the-badge" alt="Bash">
-</div>
+### 💻 Languages
+<p align="center">
+  <a><img src="https://img.shields.io/badge/C-00599C?logo=c&logoColor=white&style=for-the-badge" alt="C" /></a>&nbsp;&nbsp;
+  <a><img src="https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white&style=for-the-badge" alt="C++" /></a>&nbsp;&nbsp;
+  <a><img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" alt="Python" /></a>&nbsp;&nbsp;
+  <a><img src="https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white&style=for-the-badge" alt="Bash" /></a>&nbsp;&nbsp;
+  <a><img src="https://img.shields.io/badge/SystemVerilog-ED1C24?logo=amd&logoColor=white&style=for-the-badge" alt="SystemVerilog" /></a>
+</p>
 
-<h3>⚙️ Tooling & Infrastructure</h3>
-<div class="badge-row">
-  <img src="https://img.shields.io/badge/Linux-455A64?logo=linux&logoColor=white&style=for-the-badge" alt="Linux">
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge" alt="Docker">
-  <img src="https://img.shields.io/badge/CMake-064F8C?logo=cmake&logoColor=white&style=for-the-badge" alt="CMake">
-  <img src="https://img.shields.io/badge/Makefile-darkgreen?logo=gnu&logoColor=white&style=for-the-badge" alt="Makefile">
-  <img src="https://img.shields.io/badge/GDB-lightgrey?logo=gnu&logoColor=white&style=for-the-badge" alt="GDB">
-  <img src="https://img.shields.io/badge/Valgrind-6F42C1?style=for-the-badge" alt="Valgrind">
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white&style=for-the-badge" alt="GitHub Actions">
-  <img src="https://img.shields.io/badge/Azure%20DevOps-0078D7?logo=azuredevops&logoColor=white&style=for-the-badge" alt="Azure DevOps">
-</div>
+### 🔩 Firmware & Hardware
+<p align="center">
+  <a><img src="https://img.shields.io/badge/ARM_Cortex--M-0091BD?logo=arm&logoColor=white&style=for-the-badge" alt="ARM Cortex-M" /></a>&nbsp;&nbsp;
+  <a><img src="https://img.shields.io/badge/Zynq%20%7C%20Vivado-ED1C24?logo=amd&logoColor=white&style=for-the-badge" alt="Zynq Vivado" /></a>&nbsp;&nbsp;
+  <a><img src="https://img.shields.io/badge/STM32-03234B?logo=stmicroelectronics&logoColor=white&style=for-the-badge" alt="STM32" /></a>&nbsp;&nbsp;
+  <a><img src="https://img.shields.io/badge/Zephyr%20RTOS-8253c1?logo=zephyrproject&logoColor=white&style=for-the-badge" alt="Zephyr RTOS" /></a>&nbsp;&nbsp;
+  <a><img src="https://img.shields.io/badge/SPI%20%7C%20I2C%20%7C%20UART-607D8B?style=for-the-badge" alt="Protocols" /></a>&nbsp;&nbsp;
+  <a><img src="https://img.shields.io/badge/AXI-607D8B?style=for-the-badge" alt="AXI" /></a>
+</p>
 
-<h3>🔧 Hardware & Embedded</h3>
-<div class="badge-row">
-  <img src="https://img.shields.io/badge/STM32-03234B?logo=stmicroelectronics&logoColor=white&style=for-the-badge" alt="STM32">
-  <img src="https://img.shields.io/badge/Raspberry%20Pi-C51A4A?logo=raspberrypi&logoColor=white&style=for-the-badge" alt="Raspberry Pi">
-  <img src="https://img.shields.io/badge/Zephyr%20RTOS-8253c1?logo=zephyrproject&logoColor=white&style=for-the-badge" alt="Zephyr RTOS">
-  <img src="https://img.shields.io/badge/Zynq%20%7C%20Vivado-ED1C24?logo=amd&logoColor=white&style=for-the-badge&logoSize=auto" alt="Zynq/Vivado">
-  <img src="https://img.shields.io/badge/UART-607D8B?style=for-the-badge" alt="UART">
-  <img src="https://img.shields.io/badge/SPI-607D8B?style=for-the-badge" alt="SPI">
-  <img src="https://img.shields.io/badge/I2C-607D8B?style=for-the-badge" alt="I2C">
-  <img src="https://img.shields.io/badge/Oscilloscope-607D8B?style=for-the-badge" alt="Oscilloscope">
-  <img src="https://img.shields.io/badge/Logic%20Analyzer-607D8B?style=for-the-badge" alt="Logic Analyzer">
-</div>
+### 🐛 Debug & Toolchain
+<p align="center">
+  <a><img src="https://img.shields.io/badge/J--Link%20%7C%20JTAG-darkgrey?logo=arm&logoColor=white&style=for-the-badge" alt="J-Link JTAG" /></a>&nbsp;&nbsp;
+  <a><img src="https://img.shields.io/badge/GDB-lightgrey?logo=gnu&logoColor=white&style=for-the-badge" alt="GDB" /></a>&nbsp;&nbsp;
+  <a><img src="https://img.shields.io/badge/Keil%20%7C%20MDK-darkblue?style=for-the-badge" alt="Keil MDK" /></a>&nbsp;&nbsp;
+  <a><img src="https://img.shields.io/badge/ARM_Compiler-0091BD?logo=arm&logoColor=white&style=for-the-badge" alt="ARM Compiler" /></a>&nbsp;&nbsp;
+  <a><img src="https://img.shields.io/badge/CMake-064F8C?logo=cmake&logoColor=white&style=for-the-badge" alt="CMake" /></a>&nbsp;&nbsp;
+  <a><img src="https://img.shields.io/badge/Azure%20DevOps-0078D7?logo=azuredevops&logoColor=white&style=for-the-badge" alt="Azure DevOps" /></a>
+</p>
 
+---
+
+## 🚧 Currently Building
+
+- 🔌 Custom AXI-Lite peripheral in SystemVerilog with bare-metal ARM Cortex-A9 drivers
+- 🥾 Second-stage bootloader replacing Xilinx FSBL with DDR3 init and MMU configuration
+- 🧪 cocotb-based HIL validation framework for SPI/I2C/UART register-level testing
 
 ---
 
@@ -113,49 +103,6 @@ _International Symposium on Intelligent Computing and Networking (ISICN 2025)_
 → First-author paper leveraging containerized ML infrastructure for edge threat detection
 
 ---
-
-<!--  Exploring Section -->
-## 🌱 Currently Exploring
-
-- 🔧 Building a full **Yocto-based embedded Linux image**
-- 📦 **Apple/Containers** runtime contribution & runtime isolation strategies
-- 📚 Learning **C++23** features and applications to embedded systems
-- 📘 Deep diving into **compiler internals**, **DMA**, and **RTOS scheduling**
-
----
-
-<!-- Projects Section -->
-## 🚀 Projects
-
-### 🧠 DDoS Detection ML Testbed
-> Docker-based TensorFlow system for real-time DDoS detection (ISICN 2025)
-
-### 🔧 JobTracker
-> NLP-powered job application tracker using FastAPI, C++20, and Docker
-
-### 🛰️ Autonomous Rover SoM
-> C++20 libraries for GPS and IMU on Raspberry Pi with Valgrind-based testing
-
-<!-- Carousel -->
-<div class="clgide glide">
-  <div class="glide__track" data-glide-el="track">
-    <ul class="glide__slides">
-      <li class="glide__slide"><img src="/images/cookmyfridge.png" alt="DDoS Detection"></li>
-      <li class="glide__slide"><img src="/images/ascii8bit.png" alt="JobTracker"></li>
-      <li class="glide__slide"><img src="/images/arduinocar.png" alt="Autonomous Rover"></li>
-    </ul>
-  </div>
-</div>
-
----
-
-<!-- Contact Section -->
-## 📬 Contact
-
-- 📧 Email:
-  [luisdgarcia.mi@gmail.com](mailto:luisdgarcia.mi@gmail.com)  
-- 🐙 GitHub: [github.com/luisdavidgarcia](https://github.com/luisdavidgarcia)  
-- 💼 LinkedIn: [linkedin.com/in/luisgd](https://www.linkedin.com/in/luisgd/)  
 
 <!-- Certifications -->
 ## 🏅 Certifications

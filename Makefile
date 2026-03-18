@@ -37,9 +37,7 @@ help:
 	@echo '                                                                          '
 	@echo 'Usage:                                                                    '
 	@echo '   make html                           (re)generate the web site          '
-	@echo '   make clean                          remove the generated files         '
-	@echo '   make regenerate                     regenerate files upon modification '
-	@echo '   make publish                        generate using production settings '
+	@echo '   make clean                          remove the generated files         ' @echo '   make regenerate                     regenerate files upon modification ' @echo '   make publish                        generate using production settings '
 	@echo '   make serve [PORT=8000]              serve site at http://localhost:8000'
 	@echo '   make serve-global [SERVER=0.0.0.0]  serve (as root) to $(SERVER):80    '
 	@echo '   make devserver [PORT=8000]          serve and regenerate together      '
@@ -82,7 +80,7 @@ build:
 	docker build -t "$(CONTAINER_IMAGE_NAME)" .
 
 run: build
-	docker run -it --rm -v $(CURDIR):/app "$(CONTAINER_IMAGE_NAME)"
+	docker run -p 8000:8000 -it --rm -v $(CURDIR):/app "$(CONTAINER_IMAGE_NAME)"
 
 
 .PHONY: html help clean regenerate serve serve-global devserver devserver-global publish github

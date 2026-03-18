@@ -1,6 +1,0 @@
-pelican
-pelican[markdown]
-typogrify
-markdown
-pygments
-ghp-import

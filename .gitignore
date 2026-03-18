@@ -40,9 +40,6 @@ node_modules/
 *.pid
 *.sock
 
-# Optional: if you pull in themes as submodules or download
-themes/*
-
 # GitHub Pages branch (if deploying manually)
 gh-pages/
 

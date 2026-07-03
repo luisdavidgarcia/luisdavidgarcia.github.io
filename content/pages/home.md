@@ -55,7 +55,8 @@ Summary: Welcome to my site
 ## 🔨 Technologies & Tools
 
 ### 💻 Languages
-<p align="center">
+
+<p>
   <a><img src="https://img.shields.io/badge/C-00599C?logo=c&logoColor=white&style=for-the-badge" alt="C" /></a>&nbsp;&nbsp;
   <a><img src="https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white&style=for-the-badge" alt="C++" /></a>&nbsp;&nbsp;
   <a><img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" alt="Python" /></a>&nbsp;&nbsp;
@@ -64,7 +65,8 @@ Summary: Welcome to my site
 </p>
 
 ### 🔩 Firmware & Hardware
-<p align="center">
+
+<p>
   <a><img src="https://img.shields.io/badge/ARM_Cortex--M-0091BD?logo=arm&logoColor=white&style=for-the-badge" alt="ARM Cortex-M" /></a>&nbsp;&nbsp;
   <a><img src="https://img.shields.io/badge/Zynq%20%7C%20Vivado-ED1C24?logo=amd&logoColor=white&style=for-the-badge" alt="Zynq Vivado" /></a>&nbsp;&nbsp;
   <a><img src="https://img.shields.io/badge/STM32-03234B?logo=stmicroelectronics&logoColor=white&style=for-the-badge" alt="STM32" /></a>&nbsp;&nbsp;
@@ -74,7 +76,8 @@ Summary: Welcome to my site
 </p>
 
 ### 🐛 Debug & Toolchain
-<p align="center">
+
+<p>
   <a><img src="https://img.shields.io/badge/J--Link%20%7C%20JTAG-darkgrey?logo=arm&logoColor=white&style=for-the-badge" alt="J-Link JTAG" /></a>&nbsp;&nbsp;
   <a><img src="https://img.shields.io/badge/GDB-lightgrey?logo=gnu&logoColor=white&style=for-the-badge" alt="GDB" /></a>&nbsp;&nbsp;
   <a><img src="https://img.shields.io/badge/Keil%20%7C%20MDK-darkblue?style=for-the-badge" alt="Keil MDK" /></a>&nbsp;&nbsp;

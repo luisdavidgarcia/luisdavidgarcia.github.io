@@ -16,6 +16,7 @@ FEED_ALL_ATOM = "feeds/all.atom.xml"
 CATEGORY_FEED_ATOM = None
 
 DELETE_OUTPUT_DIRECTORY = True
+THEME = 'themes/minimal-xy'
 
 # Following items are often useful when publishing
 

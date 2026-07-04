@@ -1,3 +1,5 @@
+from pathlib import Path
+
 AUTHOR = 'Luis David Garcia'
 SITENAME = 'Luis\'s Portfolio. Lets Collobrate!'
 SITEURL = ""
@@ -20,7 +22,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 DEFAULT_PAGINATION = 10
 
 # Theme
-THEME = 'themes/minimal-xy'
+THEME = str(Path("themes/minimal-xy").resolve())
 
 # Pages config for custom slugs (optional, but helps avoid clutter)
 PAGE_URL = '{slug}.html'
